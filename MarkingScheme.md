@@ -1,5 +1,5 @@
 <HR><!------------------------------------------------------------------------>
-<H3>Threads and Processes</H3>
+<H3>K Nearest Neighbours</H3>
 
 <TABLE BORDER=0>
 <TR> <TD COLSPAN=2 WIDTH=50%> Student:
