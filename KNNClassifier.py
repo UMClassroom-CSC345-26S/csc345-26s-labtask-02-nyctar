@@ -90,8 +90,8 @@ def generate_predictions(knn, features_test, classes_test, feature_names, testin
 if __name__ == "__main__":
 
     # Load training and testing data
-    features_train,classes_train,feature_names,class_names = get_data_from_csv("/content/Training.csv")
-    features_test,classes_test,*_ = get_data_from_csv("/content/Testing.csv")
+    features_train,classes_train,feature_names,class_names = get_data_from_csv("Training.csv")
+    features_test,classes_test,*_ = get_data_from_csv("Testing.csv")
 
     # Normalization
     scaler = StandardScaler()
@@ -109,7 +109,7 @@ if __name__ == "__main__":
         classes_test
     )
 
-    # Train with the best K
+    # Train with the best K and predict for the test data
     knn, _ = get_predictions(
         best_k,
         features_train,
