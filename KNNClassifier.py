@@ -130,5 +130,5 @@ if __name__ == "__main__":
         features_test,
         classes_test,
         feature_names,
-        "/content/Testing.csv"
+        "Testing.csv"
     )
