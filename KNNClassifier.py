@@ -1,3 +1,10 @@
+import numpy as np
+import pandas as pd
+from sklearn.neighbors import KNeighborsClassifier
+from sklearn.metrics import accuracy_score
+from sklearn.model_selection import train_test_split
+from sklearn.preprocessing import StandardScaler
+
 def get_data_from_csv(file_name):
 
     """Load dataset from a CSV file and separate features and class labels. From Class Example."""
